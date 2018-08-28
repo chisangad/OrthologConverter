@@ -1,4 +1,3 @@
-setwd(dirname(sys.frame(1)$ofile))
 map.orthologs=function(genes=NULL,from.tax_id,to.tax_id)
 {
   if(!file.exists("gene_orthologs.gz"))
